@@ -10,7 +10,7 @@ int main(){
     printf("ahora escriba su segundo numero:");
     scanf(" %d", &numero2);
 
-    suma = (numero1 + numero2)/2;
+    suma = numero1 + numero2;
 
     printf("el resultado de la suma de sus numeros es: %d", suma);
 
